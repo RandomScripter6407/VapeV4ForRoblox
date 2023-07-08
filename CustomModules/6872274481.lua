@@ -3036,7 +3036,7 @@ runFunction(function()
 		end,
 		HoverText = "Makes you go zoom (longer Fly discovered by exelys and Cqded)",
 		ExtraText = function() 
-			return "Heatseeker"
+			return "CFrame"
 		end
 	})
 	FlySpeed = Fly.CreateSlider({
@@ -3460,7 +3460,7 @@ runFunction(function()
 		end,
 		HoverText = "Makes you go zoom",
 		ExtraText = function()
-			return "Heatseeker"
+			return "CFrame"
 		end
 	})
 	InfiniteFlySpeed = InfiniteFly.CreateSlider({
@@ -4958,7 +4958,7 @@ runFunction(function()
 		end, 
 		HoverText = "Increases your movement.",
 		ExtraText = function() 
-			return "Heatseeker"
+			return "CFrame"
 		end
 	})
 	SpeedValue = Speed.CreateSlider({
